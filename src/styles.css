@@ -1,1 +1,65 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body {
+	font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Ubuntu,sans-serif !important;
+    color: #3c4257;
+    font-size: 14px;
+    margin: 0; 
+    width: 100%;
+    height: 100%;
+}
+.Text-fontSize--20 {font-size: 20px;}
+.Text-color--dark {color: #1a1f36;}
+.Text-fontWeight--regular {font-weight: 400;}
+.Text-fontWeight--medium {font-weight: 500;}
+.Text-fontWeight--bold {font-weight: 700;}
+.Text-color--blue {color: #5469d4;}
+.Text-color--darkgrey {color:#4F566B}
+.Text-color--red {
+    color: #cd3d64;
+}
+.Text-color--white {
+    color: #fff;
+}
+.Text-fontSize--12 {
+    font-size: 12px;
+}
+.Text-fontSize--13 {
+    font-size: 13px;
+}
+.Text-fontSize--14 {
+    font-size: 14px;
+}
+.Text-fontSize--15 {
+    font-size: 15px;
+}
+.Text-fontSize--16{
+	font-size: 16px;
+}
+.Text-fontSize--28{
+	font-size: 28px;
+}
+.Text-fontSize--25{
+	font-size: 25px;
+}
+.Padding-top--48{padding-top:48px}
+.Padding-top--25{padding-top:25px}
+.Padding-left--10{padding-left:10px}
+.Padding-left--20{padding-left:20px}
+.Padding-horizontal--48{padding-right:48px;padding-left:48px}
+.Padding-horizontal--5{padding-right:5px;padding-left:5px}
+.Padding-horizontal--40{padding-right:40px;padding-left:40px}
+.Padding-vertical--10{padding-top: 10px;padding-bottom: 10px;}
+.Padding-vertical--5{padding-top: 5px;padding-bottom: 5px;}
+.Padding-vertical--15{padding-top: 15px;padding-bottom: 15px;}
+.Padding-bottom--32{padding-bottom:32px}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    display: contents;
+}

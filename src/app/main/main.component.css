@@ -1,0 +1,24 @@
+.db-World-sideNavContainer {
+    bottom: 0;
+    justify-content: flex-end;
+    top: 0;
+    width: 105px;
+    z-index: 10;
+    background-color: #34A42D;
+    float:left;
+    height: 100vh;
+}
+.db-SideNav-navSections {
+    position: relative;
+    flex-grow: 1;
+    overflow-y: auto;
+    user-select: none;
+    margin-top: 100%;
+}
+.selected-tab{
+	background-color:#ffffff;
+}
+.nav-div{    
+    height: 30px;
+    line-height: 30px;
+}

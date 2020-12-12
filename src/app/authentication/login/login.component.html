@@ -1,0 +1,38 @@
+<div class="login_div">
+    <div align="center">
+        <img src="assets/img/rentpal.svg" style="height: 35px;"/>
+    </div>
+   <div class="basic-drop-shadow" align="center">
+        <!--div style="padding: 10px;"><span class="Text-fontSize--16 Text-fontWeight--medium">Connect with</span></div-->
+        <div class="login_button" (click)="login($event, 'fb')">
+            <table class="fb_bg">
+                <tbody>
+                    <tr>
+                        <td class="td_icon">
+                            <img src="assets/img/fb.svg" class="icon_size"/>
+                        </td>
+                        <td>
+                            <div class="Text-fontSize--14 Text-fontWeight--bold Text-color--white login_button">Login with Facebook</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+        <div class="login_button" (click)="login($event, 'google')">
+            <table class="google_bg">
+                <tbody>
+                    <tr>
+                        <td class="td_icon">
+                            <img src="assets/img/google.svg" class="icon_size" style="margin-top: 6px;height: 30px;"/>
+                        </td>
+                        <td>
+                            <div class="Text-fontSize--14 Text-fontWeight--bold Text-color--white login_button">Login with Google</div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+   </div>
+     
+    
+</div>
